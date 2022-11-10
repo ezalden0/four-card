@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Kumba Sans;
+}
+body{
+    background-color: aliceblue;
+}
+.per .first{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(117, 115, 115);
+    position: absolute;left: 40%;top: 5%;
+}
+.per .sec {
+    color: black;
+    position: absolute;left: 40%;top: 10%;
+}
+.per p{
+    color: black;
+    position: absolute;left: 35%;top: 15%;
+}
+.per .card-tem{
+    height: 200px;
+    width: 300px;
+   border-top:rgb(126, 26, 89) solid 10px ;
+   border-radius: 5%;
+    background-color: white;
+    position: absolute;left: 40%;top: 25%;
+}
+.per .card-tem p{
+    
+    position: absolute;left: 1%;
+}
+.per .card-tem img{
+    position: absolute;left: 65%; top: 65%;
+}
+.per .card-karma{
+    height: 200px;
+    width: 300px;
+    border-top:rgb(189, 179, 48) solid 10px ;
+    border-radius: 5%;
+    background-color:white;
+    position: absolute;left: 40%;top: 65%;
+}
+.per .card-karma p{
+ position: absolute;left: 1%; top :20%;   
+}
+.per .card-karma img{
+    position: absolute;left: 65%; top: 65%;
+}
+.per .card-sup{
+    height: 200px;
+    width: 300px;
+    border-top:rgb(147, 156, 207) solid 10px ;
+    border-radius: 5%;
+    background-color: white;
+    position: absolute;left: 15%;top: 50%;
+}
+.per .card-sup p{
+    position: absolute;left: 1%;top: 20%;
+}
+.per .card-sup img{
+    position: absolute;left: 65%;top: 62%;
+}
+.per .card-cal{
+    height: 200px;
+    width: 300px;
+    border-top:rgb(36, 26, 126) solid 10px ;
+    border-radius: 5%;
+    background-color: white;
+    position: absolute;left: 65%;top: 50%;
+}
+.per .card-cal p{
+    position: absolute;left: 1%;top: 20%;
+}
+.per .card-cal img{
+    position: absolute;left: 60%; top: 65%;
+}
+@media(max-width:750px){
+    .per .first{
+        position: absolute;left: 15%; top: 5%;
+    }
+    .per .sec{
+        position: absolute;left: 15%; top: 12%;
+    }
+    .per p{
+        position: absolute;left: 15%; top: 20%;
+    }
+    .per .card-cal{
+        position: absolute; left: 15%;top: 250px;
+    }
+    .per .card-karma{
+        position: absolute; left: 15%;top: 500px;
+    }
+    .per .card-sup{
+        position: absolute; left: 15%;top: 725px;
+    }
+    .per .card-tem{
+        position: absolute; left: 15%;top: 950px;
+    }
+}
